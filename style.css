@@ -1,0 +1,21 @@
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.d-flex button {
+    width: 90px;
+    margin: auto;
+}
+
+@media screen and (max-width:475px) {
+    .d-flex {
+        flex-direction: column;
+    }
+    .d-flex button {
+        margin-bottom: 20px;
+    }
+}
