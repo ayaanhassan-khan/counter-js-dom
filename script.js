@@ -1,4 +1,4 @@
-let x = 90;
+let x = 0;
 let res = document.getElementById('display');
 res.innerHTML = x;
 
